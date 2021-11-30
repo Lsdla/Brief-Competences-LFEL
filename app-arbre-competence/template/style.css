@@ -1,0 +1,9 @@
+@font-face {
+  font-family: caveat;
+  src: url(../../assets/font/);
+}
+h1 {
+    color: #f03CC3;
+    text-align: center;
+    font-family: url();
+}

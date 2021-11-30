@@ -1,2 +1,6 @@
 /app-arbre-competence/dist
 /app-arbre-competence/.cache
+/app-arbre-competence/.parcel-cache
+/app-arbre-competence/node_modules
+/app-arbre-competence/package-lock.json
+/app-arbre-competence/package.json

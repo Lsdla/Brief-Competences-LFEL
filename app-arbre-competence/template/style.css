@@ -1,0 +1,28 @@
+/*@font-face {
+    font-family: caveat;
+    src: url(../../assets/img/ci_plus-circle.svg);
+}*/
+
+/* ------------------------------ page ta progression -----------------------------------*/
+h2{
+    font-family: caveat;
+    padding: 2rem 0;
+}
+
+#progress-A1 h2{
+    color: #2988F0;
+}
+
+#progress-A2 h2{
+    color: #FA22F1;
+}
+
+#progress-A3 h2{
+    color: #394AF7;
+}
+
+#progress-total h2{
+    color: #723FE0;
+}
+
+/* ------------------------------ fin de la page ta progression -----------------------------------*/

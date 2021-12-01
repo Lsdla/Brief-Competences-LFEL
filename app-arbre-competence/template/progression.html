@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../template/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
     <title>Ta Progression</title>
 </head>
+
 <body>
 
     <header>
@@ -31,9 +36,46 @@
     <div id="progress">
         <h1>Visualise ta progression</h1>
     </div>
-    <div class="progress">
-        <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">25%</div>
-      </div>
+    <section class="container">
+        <div id="progress-A1">
+            <h2>
+                A1 - Concevoir et développer des composants d'interface  utilisateur en intégrant les recommandations de  sécurité
+            </h2>
+            <div class="progress-bar mx-3" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">25%</div>
+        </div>
     
+        <div id="progress-A2">
+            <h2>
+                A1 - Concevoir et développer des composants d'interface  utilisateur en intégrant les recommandations de  sécurité
+            </h2>
+            <div class="progress-bar mx-3" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">25%</div>
+        </div>
+    
+        <div id="progress-A3">
+            <h2>
+                A1 - Concevoir et développer des composants d'interface  utilisateur en intégrant les recommandations de  sécurité
+            </h2>
+            <div class="progress-bar mx-3" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">25%</div>
+        </div>
+
+        <div id="progress-total">
+            <h2>
+                Progression générale:
+            </h2>
+            <div class="progress-bar mx-3" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0"
+                aria-valuemax="100">25%</div>
+        </div>
+        <div id="btn-validate" class="d-flex justify-content-end">
+            <button class="btn btn-primary my-1">Modifier</button>
+        </div>
+    </section>
+
+    <div id="cercle"></div>
+
+
 </body>
+
 </html>

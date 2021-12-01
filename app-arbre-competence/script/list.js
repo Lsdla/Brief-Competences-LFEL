@@ -25,7 +25,7 @@ function apprenantList(){
             apprenant.innerHTML += `<div class=" p-3"> 
                                          <div>
                                       <a href="/template/progression.html?id=${app.id}">
-                                          ${app.lastname} ${app.fisrtname} 
+                                          ${app.lastname} ${app.firstname} 
                                       </a>
                                           </div>
                                      </div>`;
@@ -62,7 +62,7 @@ console.log(uri)
             apprenant.innerHTML += `<div class=" p-3"> 
                                       <div>
                                       <a href="/template/progression.html?id=${app.id}">
-                                      ${app.lastname} ${app.fisrtname} 
+                                      ${app.lastname} ${app.firstname} 
                                       </a>
                                       </div>
                                     </div>`;

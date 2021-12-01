@@ -2,17 +2,17 @@
   "users": [
     {
       "id": 1,
-      "fisrtname": "Flora",
+      "firstname": "Flora",
       "lastname": "Lafferriere"
     },
     {
       "id": 2,
-      "fisrtname": "Lobna",
+      "firstname": "Lobna",
       "lastname": "Kharrat"
     },
     {
       "id": 3,
-      "fisrtname": "Lyes",
+      "firstname": "Lyes",
       "lastname": "Abrous"
     },
     {
@@ -46,6 +46,14 @@
         {}
       ],
       "id": 7
+    },
+    {
+      "firstname": "doumbia",
+      "lastname": "farima",
+      "progress": [
+        {}
+      ],
+      "id": 8
     }
   ],
   "activities": [

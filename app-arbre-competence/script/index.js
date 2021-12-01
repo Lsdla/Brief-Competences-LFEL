@@ -94,28 +94,49 @@ let form = document.getElementById("form");
 
     
     function postUser() {
-        console.log('toto');
-        let uri = "http://localhost:3000/users";
+        let uriUser = "http://localhost:3000/users";
+        let uriProgress = "http://localhost:3000/progress";
     
     
     
         const doc = {
             firstname: form.firstname.value,
-            lastname: form.lastname.value,
-            progress: [{
-                // idSkill:
-                // idLevel:
-            }]
+            lastname: form.lastname.value
         }
-        console.log(doc);
-    
-        fetch(uri, {
+
+        fetch(uriUser, {
             method: "POST",
             body: JSON.stringify(doc),
             headers:{ 'Content-Type': 'application/json'}
         })
+            .then(res => res.json())
+            .then(newUser => {
+                console.log(newUser);
 
-        window.location.replace("./");
+                alert("bamab");
+                const docProgress = [
+                    {
+                        idUser: newUser.id,
+                        idSkill: "C1",
+                        idLevel: 1
+                    },
+                    {
+                        idUser: newUser.id,
+                        idSkill: "C2",
+                        idLevel: 1
+                    }
+                ]
+                fetch(uriProgress, {
+                    method: "POST",
+                    body: JSON.stringify(docProgress),
+                    headers: { 'Content-Type': 'application/json' }
+                })
+                    .catch(e => {
+                    console.log(e);
+                })
+        })
+
+        window.location.replace("/");
 }
 
 

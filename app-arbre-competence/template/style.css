@@ -1,0 +1,67 @@
+@font-face {
+    font-family: caveat;
+    src: url(../../assets/font/Caveat-Regular.ttf);
+}
+
+h1 {
+    color: #f03CC3;
+    text-align: center;
+    font-family: "caveat";
+    padding: 60px;
+}
+
+label{
+    font-family: "caveat";
+    font-size: 1.3rem;
+}
+
+button{
+    background-color: #394AF7 !important;
+    color: white !important;
+    font-size: 17px !important ;
+    border-radius: 5px;
+    width: 140px;
+    margin-top: 30px !important;
+}
+
+#form-container{
+    max-width: 1000px;
+    border: solid 1px #D1D0D0;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px 2px #D1D0D0 ;
+    padding: 30px 50px;
+}
+
+.list-activities{
+    /* list-style-image: url("../../assets/img/Star.svg"); */
+    list-style: none;
+}
+
+#starA1, #plusA1{
+    fill: #2988F0;
+}
+#starA2, #plusA2 {
+    fill: #f03CC3;
+}
+#starA3, #plusA3 {
+    fill: #394AF7;
+}
+.plus{
+    fill:#2988F0;
+}
+
+.skills-container{
+    list-style: none;
+}
+
+.valid{
+    text-align: center;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}

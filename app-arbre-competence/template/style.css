@@ -1,28 +1,68 @@
-/*@font-face {
+
+@font-face {
     font-family: caveat;
-    src: url(../../assets/img/ci_plus-circle.svg);
-}*/
-
-/* ------------------------------ page ta progression -----------------------------------*/
-h2{
-    font-family: caveat;
-    padding: 2rem 0;
+    src: url(../../assets/font/Caveat-Regular.ttf);
 }
 
-#progress-A1 h2{
-    color: #2988F0;
+h1 {
+    color: #f03CC3;
+    text-align: center;
+    font-family: "caveat";
+    padding: 60px;
 }
 
-#progress-A2 h2{
-    color: #FA22F1;
+label{
+    font-family: "caveat";
+    font-size: 1.3rem;
 }
 
-#progress-A3 h2{
-    color: #394AF7;
+button{
+    background-color: #394AF7 !important;
+    color: white !important;
+    font-size: 17px !important ;
+    border-radius: 5px;
+    width: 140px;
+    margin-top: 30px !important;
 }
 
-#progress-total h2{
-    color: #723FE0;
+#form-container{
+    max-width: 1000px;
+    border: solid 1px #D1D0D0;
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px 2px #D1D0D0 ;
+    padding: 30px 50px;
 }
 
-/* ------------------------------ fin de la page ta progression -----------------------------------*/
+.list-activities{
+    /* list-style-image: url("../../assets/img/Star.svg"); */
+    list-style: none;
+}
+
+#starA1, #plusA1{
+    fill: #2988F0;
+}
+#starA2, #plusA2 {
+    fill: #f03CC3;
+}
+#starA3, #plusA3 {
+    fill: #394AF7;
+}
+.plus{
+    fill:#2988F0;
+}
+
+.skills-container{
+    list-style: none;
+}
+
+.valid{
+    text-align: center;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}

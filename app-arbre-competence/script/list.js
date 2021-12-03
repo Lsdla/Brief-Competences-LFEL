@@ -20,13 +20,11 @@ function apprenantList(){
         for (let i = 0; i < tabUser.length; i++) {
             let app = tabUser[i];
 
-           // console.log(app);
-
-            apprenant.innerHTML += `<div class=" p-3"> 
+            apprenant.innerHTML += `<div class="p-3"> 
                                          <div>
-                                      <a href="/template/progression.html?id=${app.id}">
-                                          ${app.lastname} ${app.firstname} 
-                                      </a>
+                                              <a href="/template/progression.html?id=${app.id}">
+                                                  ${app.lastname} ${app.firstname} 
+                                              </a>
                                           </div>
                                      </div>`;
         }
